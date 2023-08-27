@@ -13,7 +13,8 @@ for i in range(im.height):
         charInd= int(avg/(255/len(density)))
         text+=density[charInd-1] 
     text+="\n"
-f = open("output.txt", "a")
-f.write(text)
-f.close()
+print(text)
+# f = open("output.txt", "a")
+# f.write(text)
+# f.close()
 print("Successfull")
